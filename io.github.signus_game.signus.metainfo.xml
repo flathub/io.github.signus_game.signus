@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop">
-  <!--Created with jdAppStreamEdit 7.0-->
+  <!--Created with jdAppStreamEdit 7.1-->
   <id>io.github.signus_game.signus</id>
   <name>Signus: The Artefact Wars</name>
   <summary>Turn-based strategy game</summary>
@@ -13,7 +13,10 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://signus.paan.cz/wp-content/uploads/2013/03/mise7-1.jpg</image>
+      <image type="source">https://pbs.twimg.com/media/E2gH24JX0AMLfCu?format=png&amp;name=900x900</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://pbs.twimg.com/media/EmVSFgwXUAI4sJS?format=png&amp;name=900x900</image>
     </screenshot>
   </screenshots>
   <releases>
