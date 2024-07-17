@@ -1,6 +1,6 @@
 app-id: io.github.signus_game.signus
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: signus
 finish-args:
