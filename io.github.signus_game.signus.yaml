@@ -1,6 +1,6 @@
 app-id: io.github.signus_game.signus
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: signus
 finish-args:
@@ -12,6 +12,9 @@ finish-args:
   - --persist=.signus
 
 modules:
+  - shared-modules/SDL2/SDL2_image.json
+  - shared-modules/SDL2/SDL2_ttf.json
+
   - name: signus
     buildsystem: autotools
     build-options:
