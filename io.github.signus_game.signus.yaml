@@ -19,15 +19,15 @@ modules:
   - name: signus
     buildsystem: autotools
     build-options:
-      cxxflags: "--std=c++03"
+      cxxflags: --std=c++03
     post-install:
       - install -Dm644 ${FLATPAK_ID}.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo/
       - install -Dm644 ${FLATPAK_ID}.desktop -t ${FLATPAK_DEST}/share/applications/
       - install -Dm644 ${FLATPAK_ID}.png -t ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/
     sources:
       - type: archive
-        url: https://github.com/signus-game/signus/releases/download/v1.96.0/signus-1.96.0.tar.bz2
-        sha256: caeb40b4d62e06039755ce84c1bf44d0eb2df975f122ce2423751d22ea9d17bd
+        url: https://github.com/signus-game/signus/releases/download/v1.96.1/signus-1.96.1.tar.bz2
+        sha256: 2e93cb1c2342c7022c1d73789180657730677f323e8b3af01f9691358d9395b6
       - type: file
         path: io.github.signus_game.signus.desktop
       - type: file
@@ -38,7 +38,7 @@ modules:
   - name: signus-data
     buildsystem: autotools
     build-options:
-      cxxflags: "--std=c++03"
+      cxxflags: --std=c++03
     sources:
       - type: archive
         url: https://github.com/signus-game/signus/releases/download/v1.96.0/signus-data-1.96.tar.bz2

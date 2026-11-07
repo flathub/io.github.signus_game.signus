@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<component type="desktop">
+<component type="desktop-application">
   <!--Created with jdAppStreamEdit 7.1-->
   <id>io.github.signus_game.signus</id>
   <name>Signus: The Artefact Wars</name>
   <summary>Turn-based strategy game</summary>
-  <developer_name>Valacirca</developer_name>
+  <developer id="io.github.signus_game">
+    <name>Valacirca</name>
+  </developer>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
   <description>
-    <p>Signus is a Czech turn-based strategy game from 1998, developed by Valacirca and released by Zima Software. Since 2002 it is free and open source software with both code and assets.</p>
-    <p>The game features 40 units: scout vehicles, tanks, artillery, helicopters, planes, ships, and support units providing repairs, refuels and ammo. There are also nine buildings and five defense towers in the game.</p>
+    <p>Signus is a Czech turn-based strategy game from 1998, developed by Valacirca and released by Zima Software.
+      Since 2002 it is free and open source software with both code and assets.</p>
+    <p>The game features 40 units: scout vehicles, tanks, artillery, helicopters, planes, ships, and support units
+      providing repairs, refuels and ammo. There are also nine buildings and five defense towers in the game.</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -20,6 +24,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.96.1" date="2023-12-24" type="stable">
+      <url>https://github.com/signus-game/signus/releases/tag/v1.96.1</url>
+    </release>
     <release version="1.96.0" date="2021-05-28" type="stable">
       <url>https://github.com/signus-game/signus/releases/tag/v1.96.0</url>
     </release>
